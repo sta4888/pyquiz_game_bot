@@ -2,3 +2,5 @@ pyTelegramBotAPI
 alembic
 SQLAlchemy
 psycopg2
+loguru
+python-dotenv
