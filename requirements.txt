@@ -4,3 +4,5 @@ SQLAlchemy
 psycopg2
 loguru
 python-dotenv
+psycopg2-binary
+pytest
