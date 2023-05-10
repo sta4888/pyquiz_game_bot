@@ -1,0 +1,4 @@
+pyTelegramBotAPI
+alembic
+SQLAlchemy
+psycopg2
