@@ -1,0 +1,15 @@
+[Unit]
+Description=Python quiz online bot
+After=network.target
+
+[Service]
+EnvironmentFile=/var/www/python_quiz/.env
+ExecStart=/var/www/python_quiz/venv/bin/python main.py
+ExecReload=/var/www/python_quiz/venv/bin/python main.py
+WorkingDirectory=/var/www/python_quiz/
+KillMode=process
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
